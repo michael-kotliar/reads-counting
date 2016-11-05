@@ -3,7 +3,7 @@
 ######################################################################
 
 TEMPLATE = app
-TARGET   = ReadsCounting
+TARGET   = reads-counting
 
 CONFIG   += console warn_on release
 CONFIG   -= app_bundle

@@ -91,7 +91,7 @@ void FSTM::FillUpData()
         return;
     }
     string full_path_name = gArgs().getArgs("annotation").toString().toStdString();
-    ifstream annotation_stream (full_path_name);
+    ifstream annotation_stream (full_path_name.c_str());
     if (!annotation_stream) {
         cout << "Cannot open file " << full_path_name << endl;
         emit finished();
