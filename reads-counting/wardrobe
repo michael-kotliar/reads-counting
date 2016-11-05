@@ -1,0 +1,21 @@
+EOF
+#Do not remove comments they are usefull for some scripts
+#MariaDB/MySQL host to connect
+localhost
+
+#MariaDB/MySQL User
+wardrobe
+
+#MariaDB/MySQL password
+345543
+
+#Wardrobe DB
+annotation
+
+#MariaDB/MySQL port
+3306
+
+#C++ variables
+#MariaDB/MySQL Qt5 Driver
+QMYSQL
+EOF
